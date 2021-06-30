@@ -116,7 +116,6 @@ tab:Slider("Walkspeed", "Makes your faster.", 0, 100,16,function(t)
     tab:Line()
 
     tab:Button("Rejoin Script","Rejoin this server", function()
-        Flux:Notification("Rejoin this server", "Alright")
         game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
     end)
     
