@@ -115,6 +115,13 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
      --Pagina 2 Funny
      local funny = Window:NewTab("Fun FE")
+
+     local fun = funny:NewSection("Netless Bypass (Execute to avoid errors)")
+
+     fun:NewButton("Netless Bypass", "For Animations", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
+     end)
+
      local fun = funny:NewSection("Fun")
      fun:NewButton("Carry People", "Need 1 item or more", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/Bc98Turg"))()
@@ -144,13 +151,9 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
      end)
 
      --Anim
-    
+     
      local fun = funny:NewSection("Animations (R6 ONLY)")
 
-     fun:NewButton("Netless Bypass", "For Animations", function()
-        loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
-     end)
-     
      fun:NewButton("Fe Among Us (R6)", "Among Us Animation", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/JXUMavf3", true))()
      end)
