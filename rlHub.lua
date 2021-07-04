@@ -116,7 +116,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
      --Pagina 2 Funny
      local funny = Window:NewTab("Fun FE")
 
-     local fun = funny:NewSection("Netless Bypass (Execute to avoid errors)")
+     local fun = funny:NewSection("Netless Bypass (Execute to avoid errors in animations)")
 
      fun:NewButton("Netless Bypass", "For Animations", function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
